@@ -8,6 +8,9 @@ include $(CLEAR_VARS)
 LOCAL_VENDOR_MODULE           := true
 LOCAL_COPY_HEADERS_TO         := $(common_header_export_path)
 LOCAL_COPY_HEADERS            := display_properties.h \
+                                 layer_extn_intf.h \
+                                 frame_scheduler_intf.h \
+                                 composer_extn_intf.h \
                                  ../libqdutils/qd_utils.h \
                                  ../libqdutils/display_config.h \
                                  ../libdebug/debug_handler.h \
